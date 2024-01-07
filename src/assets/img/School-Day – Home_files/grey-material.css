@@ -1,0 +1,49 @@
+/* Skin */
+.bellows.bellows-skin-grey-material {
+  background: #616161;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.bellows.bellows-skin-grey-material .bellows-nav .bellows-target,
+.bellows.bellows-skin-grey-material .bellows-nav .bellows-custom-content {
+  color: #fff;
+}
+.bellows.bellows-skin-grey-material .bellows-nav .bellows-item-level-0 > .bellows-target,
+.bellows.bellows-skin-grey-material .bellows-nav .bellows-item-level-0 > .bellows-custom-content {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.bellows.bellows-skin-grey-material .bellows-nav .bellows-item-level-0.bellows-has-custom-content > .bellows-target {
+  border-bottom: none;
+}
+.bellows.bellows-skin-grey-material .bellows-nav .bellows-item-level-0 > .bellows-target:hover {
+  background: #424242;
+}
+.bellows.bellows-skin-grey-material .bellows-nav .bellows-item-level-0.bellows-active > .bellows-target {
+  background: #424242;
+}
+.bellows.bellows-skin-grey-material .bellows-nav .bellows-item-level-0.bellows-current-menu-item > .bellows-target,
+.bellows.bellows-skin-grey-material .bellows-nav .bellows-item-level-0.bellows-current-menu-ancestor > .bellows-target {
+  background: #424242;
+}
+.bellows.bellows-skin-grey-material .bellows-nav .bellows-item-level-0 > .bellows-target .bellows-subtoggle {
+  background: rgba(0, 0, 0, 0.2);
+}
+.bellows.bellows-skin-grey-material .bellows-nav .bellows-submenu {
+  background: #fff;
+}
+.bellows.bellows-skin-grey-material .bellows-nav .bellows-submenu .bellows-target,
+.bellows.bellows-skin-grey-material .bellows-nav .bellows-submenu .bellows-custom-content,
+.bellows.bellows-skin-grey-material .bellows-nav .bellows-submenu .bellows-widget .textwidget {
+  color: #777;
+  border-bottom: 1px solid #eee;
+}
+.bellows.bellows-skin-grey-material .bellows-nav .bellows-submenu .bellows-has-custom-content > .bellows-target {
+  border-bottom: none;
+}
+.bellows.bellows-skin-grey-material .bellows-nav .bellows-submenu .bellows-target:hover {
+  background: #f9f9f9;
+  color: #444;
+}
+.bellows.bellows-skin-grey-material .bellows-nav .bellows-submenu .bellows-current-menu-item > .bellows-target,
+.bellows.bellows-skin-grey-material .bellows-nav .bellows-submenu .bellows-current-menu-ancestor > .bellows-target {
+  background: #f9f9f9;
+}
