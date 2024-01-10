@@ -7,7 +7,7 @@ import Boarding from '../views/Boarding.vue'
 import Gallery from '../views/Gallery.vue'
 import MoreGallery from '../views/MoreGallery.vue'
 import Contact from '../views/Contact.vue'
-
+import Pre from '../views/Pre.vue'
 
 
 import History from '../views/about/History.vue'
@@ -86,6 +86,8 @@ const router = createRouter({
         { path: '/more sechool galleries', name: 'MoreGallery', component: MoreGallery },
 
         { path: '/contact-us', name: 'Contact', component: Contact },
+
+        { path: '/pre school', name: 'Pre', component: Pre },
     ]
 })
 

@@ -9,7 +9,7 @@
             <div class="h2 display-5 text-uppercase text-center mb-3">Enrol in our school</div>
             <div class="row row-gap-4 row-gap-lg-0  ">
                <div class="col-12 col-sm-6 col-lg-3">
-                 <router-link :to="{ name: 'home' }">
+                 <router-link :to="{ name: 'Pre' }">
                      <div class="height">
                         <img src="@/assets/img/Private-education.jpg" class="img-fluid" alt="">
                         <div class="body-text">
