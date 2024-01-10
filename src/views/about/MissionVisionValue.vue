@@ -22,19 +22,19 @@
    <div class="container-fluid-sm pt-5 bg-white">
        <div class="container">
            <div class="row row-gap-5 justify-content-center justify-content-sm-start ">
-                <div class="col-11 col-sm-6 col-lg-12 container-text">
+                <div class="col-11 col-sm-12 col-lg-12 container-text">
                     <h3 class="py-3 px-5">Our Vision</h3>
                     <p class="py-5 px-3">
                        Is "developing the individual strength of our students through our highly experienced teachers to ensure that they are prepare for the next important stage in their lives".
                     </p>
                 </div>
-                <div class="col-11 col-sm-6 col-lg-12 container-text">
+                <div class="col-11 col-sm-12 col-lg-12 container-text">
                     <h3 class="py-3 px-5">Our Mission</h3>
                     <p class="py-5 px-3">
                         In line with our vision, British Lighthouse International College has a mission "To empower students to achieve academic excellence and realize their optimum potential through intensive teaching methods using modern technology".
                     </p>
                 </div>
-                <div class="col-11 col-sm-6 col-lg-12 container-text">
+                <div class="col-11 col-sm-12 col-lg-12 container-text">
                     <h3 class="py-3 px-5">Aim and Objectives</h3>
                     <p class="py-sm-5 px-3">
                        The British Lighthouse International Colleage community is one in which each student's contribution is valued and respected. We believe that every one of our students is entitled to the highest possible standards of broad educational provision within a caring, supportive and secure atmosphere where they are actively encouraged to achieved their full potential.
@@ -124,7 +124,9 @@
  
  
     @media screen and (max-width: 992px) {
-      
+      .container-text h3{
+        font-size: 16px;
+       }
     }
 
     @media screen and (max-width: 576px) {
