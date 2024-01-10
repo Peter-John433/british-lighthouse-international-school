@@ -173,6 +173,12 @@
        padding: 0;
        margin: 0;
    }
+   .dropdown-menu{
+      transition: all 1.5s ease-in-out;
+     }
+   .dropdown:hover .dropdown-menu{
+       display: block;
+     }
 
    @media screen and (max-width: 992px) {
      .dropdown-menu{

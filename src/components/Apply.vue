@@ -21,7 +21,7 @@
                         </div>
                     </div>
                     <div class="col col-sm col-lg-3">
-                        <router-link :to="{ name : 'home'}" class="border ms-3 ms-sm-0 p-3 apply">Apply Now</router-link>
+                        <router-link :to="{ name: 'AdmissionProcess' }" class="border ms-3 ms-sm-0 p-3 apply">Apply Now</router-link>
                     </div>
                 </div>
             </div>

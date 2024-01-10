@@ -31,7 +31,7 @@
    </div>
    <!-- closed -->
 
-    <div class="container-fluid bg-white">
+    <div class="container-fluid bg-white p-0">
         <div class="container pt-3 p-sm-5  bg-light pb-5">
             <div class="pt-5 accreditation-and-affiliation-container">
                 <div>

@@ -57,7 +57,7 @@ const router = createRouter({
 
         { path: '/admission/why', name: 'Why', component: Why },
 
-        { path: '/admission/admission-process', name: 'AdmissionProcess', component: AdmissionProcess },
+        { path: '/admission/british lighthouse/admission process', name: 'AdmissionProcess', component: AdmissionProcess },
 
         { path: '/admission/download application form', name: 'Download', component: Download },
 
@@ -87,7 +87,7 @@ const router = createRouter({
 
         { path: '/contact-us', name: 'Contact', component: Contact },
 
-        { path: '/pre school', name: 'Pre', component: Pre },
+        { path: '/course/pre school', name: 'Pre', component: Pre },
     ]
 })
 
