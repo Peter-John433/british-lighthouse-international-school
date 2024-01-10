@@ -174,27 +174,45 @@
        margin: 0;
    }
 
-   @media screen and (min-width: 992px) {
+   @media screen and (max-width: 992px) {
      .dropdown-menu{
       transition: all 1.5s ease-in-out;
      }
      .dropdown:hover .dropdown-menu{
        display: block;
      }
+
+     li{
+          width: 100%;
+          display: block;
+          padding: 15px 0;
+       }
+
+       .about-sub-menu{
+        /* background-color: rgb(1, 1, 31); */
+        width: auto;
+        text-align: center;
+        width: auto;
+        border: 0;
+       }
    }
-   @media screen and (max-width: 992px) {
+
+   @media screen and (max-width: 576px) {
        li{
           width: 100%;
           display: block;
+          padding: 0px;
        }
       .about-sub-menu{
-        background-color: rgb(1, 1, 31);
+        /* background-color: rgb(1, 1, 31); */
         width: auto;
         text-align: center;
+        width: auto;
+        border: 0;
    }
-
    .header-logo{
       width: 50px;
    }
+
   }
 </style>

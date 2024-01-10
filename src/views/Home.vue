@@ -68,42 +68,42 @@ const slideOptions2 = ref({
                 <img src="@/assets/img/british-1.jpg" alt="britishlighthouse" class="d-block" style="width:100%">
                 <div class="carousel-caption animate__animated animate__slower animate__infinite animate__zoomIn">
                     <h2 class="text-capitalize ">british lighthouse international college</h2>
-                    <p>No. 39, Adebayor Moukulo Street, Anthony Village, Lagos.</p>
+                    <p>No. 39, Adebayo Moukulo Street, Anthony Village, Lagos.</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="@/assets/img/britishlighthouse-1.jpg" alt="britishlighthouse" class="d-block" style="width:100%">
                 <div class="carousel-caption animate__animated animate__slower animate__infinite animate__pulse">
                     <h2 class="text-capitalize ">british lighthouse international college</h2>
-                    <p>No. 39, Adebayor Moukulo Street, Anthony Village, Lagos.</p>
+                    <p>No. 39, Adebayo Moukulo Street, Anthony Village, Lagos.</p>
                 </div> 
             </div>
             <div class="carousel-item">
                 <img src="@/assets/img/britishlighthouse-2.jpg" alt="britishlighthouse" class="d-block" style="width:100%">
                 <div class="carousel-caption animate__animated animate__slower animate__infinite animate__pulse">
                     <h2 class="text-capitalize ">british lighthouse international college</h2>
-                    <p>No. 39, Adebayor Moukulo Street, Anthony Village, Lagos.</p>
+                    <p>No. 39, Adebayo Moukulo Street, Anthony Village, Lagos.</p>
                 </div>  
             </div>
             <div class="carousel-item">
                 <img src="@/assets/img/computer.webp" alt="britishlighthouse" class="d-block" style="width:100%">
                 <div class="carousel-caption animate__animated animate__slower animate__infinite animate__zoomIn">
                     <h2 class="text-capitalize ">british lighthouse international college</h2>
-                    <p>No. 39, Adebayor Moukulo Street, Anthony Village, Lagos.</p>
+                    <p>No. 39, Adebayo Moukulo Street, Anthony Village, Lagos.</p>
                 </div>  
             </div>
             <div class="carousel-item">
                 <img src="@/assets/img/Classroom_Students_ScienceLab_Indoor.webp" alt="britishlighthouse" class="d-block" style="width:100%">
                 <div class="carousel-caption animate__animated animate__slower animate__infinite animate__pulse">
                     <h2 class="text-capitalize ">british lighthouse international college</h2>
-                    <p>No. 39, Adebayor Moukulo Street, Anthony Village, Lagos.</p>
+                    <p>No. 39, Adebayo Moukulo Street, Anthony Village, Lagos.</p>
                 </div>  
             </div>
             <div class="carousel-item">
                 <img src="@/assets/img/Private-education.jpg" alt="britishlighthouse" class="d-block" style="width:100%">
                 <div class="carousel-caption">
                     <h2 class="text-capitalize animate__animated animate__slower animate__infinite animate__zoomIn">british lighthouse international college</h2>
-                    <p>No. 39, Adebayor Moukulo Street, Anthony Village, Lagos.</p>
+                    <p>No. 39, Adebayo Moukulo Street, Anthony Village, Lagos.</p>
                 </div>  
             </div>
         </div>
@@ -954,7 +954,8 @@ const slideOptions2 = ref({
         margin: auto;
      }
    .carousel-caption h2{
-      color: #f1f1f1;
+      /* color: #f1f1f1; */
+      color: yellow;
       font-weight: 600;
       font-size: 18px;
    }
