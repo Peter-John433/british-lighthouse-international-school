@@ -58,7 +58,11 @@
                     <img src="@/assets/img/preschool-2.jpg" class="img-fluid" alt="">
                 </div>
             </div>
-
+            <div class="row">
+               <div class="col col-sm col-lg-6 mx-auto text-center mt-5">
+                   <router-link :to="{name: 'Curriculum'}">Pre School Curriculum</router-link>
+               </div>
+            </div>
             <div class="row mx-auto">
                 <div class="col col-sm-12 junior-coordinator col-lg-6 mx-auto">
                     <img src="@/assets/img/preschool-2.jpg" class="img-fluid" alt="">
@@ -78,6 +82,8 @@
     <Blic />
     <Partner />
     <Footer/>
+
+    <router-view />
 </template>
 
 <style scoped>
@@ -150,25 +156,41 @@
         margin-top: 20rem;
     }
 
+    a{
+        color: yellow;
+        background-color: rgb(1, 1, 31);
+        padding: 10px 16px;
+        border-radius: 16px;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        border: 1px solid yellow;
+    }
+
+    a:hover{
+        background-color: rgb(11, 11, 37);
+    }
+
     @media screen and (max-width: 992px) {
         accreditation-and-affiliation-container{
           justify-content: center;
         }
         /* closed */
         .accreditation-and-affiliation-container-1 h1{
-        font-weight: bold;
-        border: 3px solid yellow;
-       font-size: 18px;
-      }
+            font-weight: bold;
+            border: 3px solid yellow;
+            font-size: 18px;
+        }
         
         /* .partner-img */
         .partner-img img{
-        max-width: 50px;
-        width: 100%;
-        height: auto;
-        object-fit: contain;
-      }
+            max-width: 50px;
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
       /* closed */
+
       .partner-img img{
         max-width: 50px;
         width: 100%;
@@ -193,50 +215,51 @@
         color: rgb(1, 1, 31);
         font-size: 30px;
     }
+    
     }
 
 
     @media screen and (max-width: 576px) {
         .accreditation-and-affiliation-container{
-        justify-content: center;
+           justify-content: center;
         }
         
         .accreditation-and-affiliation-container h3{
-            font-size: 1.5rem;
+           font-size: 1.5rem;
         } 
 
         .accreditation-and-affiliation-container-1 h1{
-        font-weight: bold;
-        border: 3px solid yellow;
-       font-size: 16px;
-      }
+            font-weight: bold;
+            border: 3px solid yellow;
+            font-size: 16px;
+        }
         
         
         /* .partner-img */
         .partner-img img{
-        max-width: 50px;
-        width: 100%;
-        height: auto;
-        object-fit: contain;
-      }
+            max-width: 50px;
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
       /* closed */
-      .show-blic-cont h2{
-        color: rgb(1, 1, 31);
-        font-size: 18px;
-        padding-top: 4px;
-       }
+        .show-blic-cont h2{
+            color: rgb(1, 1, 31);
+            font-size: 18px;
+            padding-top: 4px;
+        }
 
-      .show-blic-cont-2{
-        border: 5px solid rgb(1, 1, 31);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-       }
+        .show-blic-cont-2{
+            border: 5px solid rgb(1, 1, 31);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-       .montessori{
-        color: rgb(1, 1, 31);
-        font-size: 16px;
-    }
+        .montessori{
+            color: rgb(1, 1, 31);
+            font-size: 16px;
+        }
     }
 
 </style>
