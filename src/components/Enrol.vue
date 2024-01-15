@@ -20,7 +20,7 @@
                </div>
 
                <div class="col-12 col-sm-6 col-lg-3">
-                 <router-link :to="{name: 'home'}">
+                 <router-link :to="{name: 'Junior'}">
                      <div class="height">
                         <img src="@/assets/img/Private-education.jpg" class="img-fluid" alt="">
                         <div class="body-text">
