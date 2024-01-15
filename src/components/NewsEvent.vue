@@ -8,49 +8,9 @@
             <h2 class="text-center text-black mb-5">News and Events</h2>
             <div class="row gap-4 gap-sm-0">
                 <div class="col-12 col-md-6 col-lg">
-                    <!-- <div class="card-group">
-                        <div class="card">
-                            <img src="@/assets/img/musical.jpeg" class="card-img-top" alt="">
-                            <div class="card-body">
-                            <h5 class="card-title">Arts and cultures contest</h5>
-                            <p class="card-text"> 
-                                asperiores, hic eligendi repellendus nam ea excepturi laboriosam quos, nostrum, iste enim sapiente maiores exercitationem sint quas vitae ducimus autem quaerat quisquam maxime!  Dicta maxime neque numquam ad corrupti? Assumenda voluptates vitae, amet
-                            </p>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">23 march 2023</small>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="@/assets/img/musical.jpeg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">
-                                Inter-house competitions
-                            </h5>
-                            <p class="card-text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi facilis natus necessitatibus eaque similique, odit quod laborum maiores atque impedit quos dignissimos recusandae, minus ab praesentium deserunt cumque voluptas iusto. 
-                            </p>
-                            </div>
-                            <div class="card-footer">
-                            <small class="text-muted">26 march 2021</small>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="@/assets/img/musical.jpeg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">inter states competition</h5>
-                            <p class="card-text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi facilis natus necessitatibus eaque similique, odit quod laborum maiores atque impedit quos dignissimos recusandae, minus ab praesentium deserunt cumque voluptas iusto. 
-                            </p>
-                            </div>
-                            <div class="card-footer">
-                            <small class="text-muted">20th may, 2023</small>
-                            </div>
-                        </div>
-                    </div> -->                    
-                    <div class="card">
+                    <div class="card rounded-0">
                         <div class="inner">
-                            <img src="@/assets/img/musical.jpeg" class="card-img-top" alt="...">
+                            <img src="@/assets/img/musical.jpeg" class="card-img-top rounded-0" alt="...">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Arts and cultures contest</h5>
@@ -64,9 +24,9 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg">
-                    <div class="card">
+                    <div class="card rounded-0">
                         <div class="inner">
-                            <img src="@/assets/img/musical.jpeg" class="card-img-top" alt="...">
+                            <img src="@/assets/img/musical.jpeg" class="card-img-top rounded-0" alt="...">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">
@@ -83,9 +43,9 @@
                 </div>
 
                 <div class="col-12 col-md-6 col-lg">
-                    <div class="card">
+                    <div class="card rounded-0">
                         <div class="inner">
-                            <img src="@/assets/img/musical.jpeg" class="card-img-top" alt="...">
+                            <img src="@/assets/img/musical.jpeg" class="card-img-top rounded-0" alt="...">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">inter-states competition</h5>

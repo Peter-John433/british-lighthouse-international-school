@@ -202,14 +202,16 @@ const slideOptions2 = ref({
         <p class="text-center fs-sm-3 fw-bold p-5 text-light">Here are some statistics about our school.</p>
         <div class="row d-flex flex-column  flex-sm-row justify-content-center align-items-center mx-auto flex-wrap gap-5 gap-lg-4 ms-sm-5">
             <div class="col-12 col-sm-5 col-lg d-flex justify-items-center align-items-center gap-2">
-                <font-awesome-icon :icon="['fas', 'certificate']" class="display-1 text-warning me-2 animate__animated animate__rotateIn animate__delay-2s  animate__infinite animate_slower" />
+                <!-- <font-awesome-icon :icon="['fas', 'certificate']" class="display-1 text-warning me-2 animate__animated animate__rotateIn animate__delay-2s  animate__infinite animate_slower" /> -->
+                <i class='bx bx-certification display-1 text-warning me-2 animate__animated animate__rotateIn animate__delay-2s  animate__infinite animate_slower'></i>
                 <div class="text-white text-capitalize fw-bold fs-5">
                     <div class="count">80</div>
                     <div>certified teachers</div>
                 </div>
             </div>
             <div class="col-12 col-sm-5 col-lg d-flex justify-items-center align-items-center gap-2">
-                <font-awesome-icon :icon="['fas', 'building-columns']" class="display-1 text-warning me-2 animate__animated animate__pulse animate__delay-2s  animate__infinite animate_faster"/>
+                <!-- <font-awesome-icon :icon="['fas', 'building-columns']" class="display-1 text-warning me-2 animate__animated animate__pulse animate__delay-2s  animate__infinite animate_faster"/> -->
+                <i class='bx bxs-school display-1 text-warning me-2 animate__animated animate__pulse animate__delay-2s  animate__infinite animate_faster'></i>
                 <div class="text-white text-capitalize fw-bold fs-5">
                     <div class="count">100%</div>
                     <div>passing to universities</div>
@@ -223,7 +225,8 @@ const slideOptions2 = ref({
                 </div>
             </div>
             <div class="col-12 col-sm-5 col-lg d-flex justify-items-center align-items-center gap-2">
-                <font-awesome-icon :icon="['fas', 'calendar']" class="display-1 text-warning me-2 animate__animated animate__pulse animate__delay-2s  animate__infinite animate_faster"/>
+                <!-- <font-awesome-icon :icon="['fas', 'calendar']" class="display-1 text-warning me-2 animate__animated animate__pulse animate__delay-2s  animate__infinite animate_faster"/> -->
+                <i class='bx bx-calendar display-1 text-warning me-2 animate__animated animate__pulse animate__delay-2s  animate__infinite animate_faster'></i>
                 <div class="text-white text-capitalize fw-bold fs-5">
                     <div class="count">20</div>
                     <div>years old</div>
