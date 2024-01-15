@@ -82,7 +82,7 @@
                             </div>
                         </div>
 
-                     <h3 class="mt-5">
+                     <h3 class="mt-5 fs-3">
                         Learn more about our junior class curriculum 
                      </h3>
 
@@ -114,7 +114,7 @@
 
             <div class="row">
                 <div class="col col-sm col-lg">
-                    <h3 class=" text-center fw-bolder">
+                    <h3 class=" text-center fw-bolder fs-3">
                          What We Have & How We Do It 
                     </h3>
 
@@ -147,6 +147,24 @@
                             A list of our sports facilities includes 1 football pitches, 2 tennis courts, 2 basketball courts, 2 table-tennis tables, a badminton court, among others.
                          </div>
                     </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <h3 class=" text-center fw-bolder fs-3 mb-5">
+                    Hear from Our Junior School Students 
+                </h3>
+                <div class="col col-sm col-lg">
+                    <img src="@/assets/img/junior.webp" class="img-fluid student-img" alt="">
+                </div>
+                <div class="col col-sm col-lg">
+                    <img src="@/assets/img/junior.webp" class="img-fluid student-img" alt="">
+                </div>
+                <div class="col col-sm col-lg">
+                    <img src="@/assets/img/junior.webp" class="img-fluid student-img" alt="">
+                    <div>
+
+                    </div>
                 </div>
             </div>
         </div>
