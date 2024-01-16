@@ -100,7 +100,7 @@
    <div>
       <div class="container-fluid bg-white  pt-5 ">
          <div class="container py-5">
-            <div class="row row-gap-4 column-gap mx-auto text-center">
+            <div class="row mx-auto text-center">
                <div class="col col-sm-6 col-lg-4 d-flex flex-column flex-lg-row justify-content-center align-items-center ">
                  <router-link :to="{name: 'Pre'}">
                      <div class="height-1">
@@ -120,7 +120,7 @@
                <div class="col col-sm-6 col-lg-4 d-flex flex-column flex-lg-row justify-content-center align-items-center">
                  <router-link :to="{name: 'Junior'}">
                      <div class="height-2">
-                        <img src="@/assets/img/Private-education.jpg" class="img-fluid" alt="">
+                        <img src="@/assets/img/about-photos.jpg" class="img-fluid" alt="">
                         <div class="body-text-2 d-flex justify-content-center align-items-center ">
             
                            <div class="second-body-text">
@@ -137,7 +137,7 @@
                <div class="col col-sm col-lg-4 d-flex flex-column flex-lg-row justify-content-center align-items-center">
                  <router-link :to="{name: 'Senior'}">
                      <div class="height-3">
-                        <img src="@/assets/img/Private-education.jpg" class="img-fluid" alt="">
+                        <img src="@/assets/img/british-1.jpg" class="img-fluid" alt="">
                         <div class="body-text-3 d-flex justify-content-center align-items-center">
                             
                             <div class="third-body-text">
@@ -187,9 +187,10 @@
       top: 0%;
       font-size: 14px;
       font-weight: bold;
-      color: #fff;
+      /* color: #fff; */
+      color: rgb(1, 1, 31);
       z-index: 99;
-      background-color: rgba(252, 0, 0, 0.6);
+      background-color: rgb(227, 252, 0, .5);
    }
 
    .body-text-1 img{
@@ -256,8 +257,9 @@
       top: 0%;
       font-size: 14px;
       font-weight: bold;
-      color: #fff;
-      background-color: rgba(252, 0, 0, 0.6);
+      color: rgb(1, 1, 31);
+      z-index: 99;
+      background-color: rgb(227, 252, 0, .5);
    }
     
    .body-text-3 img{
