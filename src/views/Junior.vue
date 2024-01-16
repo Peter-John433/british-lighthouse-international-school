@@ -51,7 +51,7 @@
                      </p>
 
                         <div class="row row-gap-4 pt-4">
-                            <div class="col col-sm col-lg-12">
+                            <div class="col-12 col-sm-12 col-lg-12">
                                 <div>
                                     Our aim is to make school enjoyable for our pupils; so we incorporate fun into learning and structure our learning environment to make learning easy for our pupils. Here are some more reasons why parents regard us one of the best junior schools in Lagos and entrust their children in our care:
                                 </div>
@@ -68,16 +68,16 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col col-sm col-lg-6">
+                            <div class="col-12 col-sm-6 col-lg-6">
                                 <img src="@/assets/img/britishlighthouse-2.jpg" class="img-fluid" alt="">
                             </div>
-                            <div class="col col-sm col-lg-6">
+                            <div class="col-12 col-sm-6 col-lg-6">
                                 <img src="@/assets/img/Classroom_Students_ScienceLab_Indoor.webp" class="img-fluid" alt="">
                             </div>
-                            <div class="col col-sm col-lg-6">
+                            <div class="col-12 col-sm-6 col-lg-6">
                                 <img src="@/assets/img/handicraft.jpg" class="img-fluid" alt="">
                             </div>
-                            <div class="col col-sm col-lg-6">
+                            <div class="col-12 col-sm-6 col-lg-6">
                                 <img src="@/assets/img/musical.jpeg" class="img-fluid" alt="">
                             </div>
                         </div>
@@ -150,20 +150,31 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row row-gap-4 row-gap-lg-0 pb-5">
                 <h3 class=" text-center fw-bolder fs-3 mb-5">
                     Hear from Our Junior School Students 
                 </h3>
-                <div class="col col-sm col-lg">
-                    <img src="@/assets/img/junior.webp" class="img-fluid student-img" alt="">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img src="@/assets/img/junior.webp" class="img-fluid " alt="">
+                    <div class="img-text">
+                        I had so much fun in this, this school enable me to discover the potentials in me,thanks to everyone. <br>
+                        <span class="img-text-2">ademola lukeman</span>
+                    </div>
                 </div>
-                <div class="col col-sm col-lg">
-                    <img src="@/assets/img/junior.webp" class="img-fluid student-img" alt="">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img src="@/assets/img/junior.webp" class="img-fluid " alt="">
+                    <div class="img-text">
+                        School in Blic is one of the best decision my parent took, i enjoyed the teaching,  <br>
+                        <span class="img-text-2">ademola lukeman</span>
+                    </div>
                 </div>
-                <div class="col col-sm col-lg">
-                    <img src="@/assets/img/junior.webp" class="img-fluid student-img" alt="">
-                    <div>
-
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img src="@/assets/img/junior.webp" class="img-fluid" alt="">
+                    <div class="">
+                        <div class="img-text">
+                            I had so much fun in this, this school enable me to discover the potentials in me,thanks to everyone. <br>
+                            <span class="img-text-2">ademola lukeman</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -221,9 +232,26 @@
         cursor: pointer;
     }
 
+    .img-text {
+        font-size: 13px;
+        width: 300px;
+        margin: auto;
+        padding: 0%;
+        color: rgb(1, 1, 31);
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .img-text-2{
+        color: red;
+        font-weight: 700;
+        font-size: 16px;
+    }
+
     @media screen and (max-width: 992px) {
         accreditation-and-affiliation-container{
         justify-content: center;
+
         }
         /* closed */
         
