@@ -72,7 +72,7 @@
    <div class="container-fluid accreditation-and-affiliation-container-1">
         <div class="row">
             <div class="col col-sm col-lg ps-lg-5">
-                <h1 class="display-5 text-white text-capitalize px-4 py-2 animate__animated animate__slow animate__pulse animate__infinite">
+                <h1 class="display-5 text-white text-capitalize px-4 py-2">
                    Our Curriculum
                 </h1>
             </div>
@@ -140,11 +140,16 @@
                         </h6>
                      </div>
                      <p>
-                        British Lighthouse School is located in a largely spaced expanse of Bekko Ransom Kutti Youth Centre Anthony, land with purpose built structures suitable for learning. The student overall development is paramount and this is represented in the core values of the school. To raise a total child, we place priority on emotional, physical, spiritual and psychological well-being of our students. The school runs a well-blended Curriculum (Nigeria and British Curricular)
+                        British Lighthouse School is located in a largely spaced expanse of Bekko Ransom Kutti Youth Centre Anthony, land with purpose built structures suitable for learning. The student overall development is paramount and this is represented in the core values of the school. To raise a total child, we place priority on emotional, physical, spiritual and psychological well-being of our students. The school runs a well-blended Curriculum (Nigeria and British Curricular).
                      </p>
-                     <p>
+                     <!-- <p>
                          British Lighthouse School cares for children between the age of 12 years – 20 years.Start from year 7 (J.S.S.1), students are prepared to write the Checkpoint examination organized by Cambridge International Examination, Junior  School National Examination Council(NECO), Basic Education Certificate Examination( BECE). Also, Year 8 (J.S.S.2) students go on an exchange and field trip (FRENCH) while year 10 (S.S.S.1) students have their curriculum prepared towards writing the West African Examinations Council(WAEC), and National Examinations Council(NECO) examinations. Provisions are made for students who require Scholastic Aptitude Tes(SAT), Test of English as a Foreign Language (TOEFL) and Jiont Admission and Matriculation Board(JAMB).
-                     </p>
+                     </p> -->
+                     <div>
+                        <h6 class="textsecondary py-4">
+                           <span class="fw-bold fs-6">Subjects include</span> <span class="fw-bolder fs-5">:</span> 
+                        </h6>
+                     </div>
                      <div>
                         <ul>
                            <li v-for="secondary in secSubj">

@@ -9,6 +9,7 @@ import MoreGallery from '../views/MoreGallery.vue'
 import Contact from '../views/Contact.vue'
 import Pre from '../views/Pre.vue'
 import Junior from '../views/Junior.vue'
+import Senior from '../views/Senior.vue'
 
 
 import History from '../views/about/History.vue'
@@ -90,7 +91,9 @@ const router = createRouter({
 
         { path: '/course/pre school', name: 'Pre', component: Pre },
 
-        { path: '/course/junior school', name: 'Junior', component: Junior }
+        { path: '/course/junior school', name: 'Junior', component: Junior },
+
+        { path: '/course/senior school', name: 'Senior', component: Senior }
     ]
 })
 

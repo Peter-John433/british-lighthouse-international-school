@@ -12,7 +12,7 @@
    <div class="container-fluid accreditation-and-affiliation-container-1">
         <div class="row">
             <div class="col col-sm col-lg ps-lg-5">
-                <h1 class="display-5 text-white text-capitalize px-4 py-2 animate__animated animate__slow animate__pulse animate__infinite">
+                <h1 class="display-5 text-white text-capitalize px-4 py-2">
                     Pre School
                 </h1>
             </div>
