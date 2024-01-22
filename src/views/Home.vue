@@ -443,7 +443,7 @@ const slideOptions2 = ref({
                     <div class="img-container-3 position-relative ">
                         <img src="@/assets/img/boarding-3.jpg" class="img-fluid" alt="">
                         <div class="img-overlay-3">
-                            <div class="img-text position-absolute  animate__animated animate__slow animate__bounce  animate__infinite">Students hostel</div>
+                            <div class="img-text position-absolute  animate__animated animate__slow animate__bounce  animate__infinite">students hostel</div>
                         </div>
                     </div>
                 </div>

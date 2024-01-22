@@ -25,8 +25,8 @@
             <div class="col col-sm col-lg text-white">
                 <h2 class="mb-5 fs-2 text-capitalize fw-lighter border-bottom pb-4">Contact Us</h2>
                 <div class="mb-3">
-                    <font-awesome-icon :icon="['fas', 'phone']" /> +234 000 000 0000, <br> 
-                    <font-awesome-icon :icon="['fas', 'phone']" />  +234 000 000 0000, <br> 
+                    <font-awesome-icon :icon="['fas', 'phone']" /> +234 0819 772 2542, <br> 
+                    <font-awesome-icon :icon="['fas', 'phone']" />  +234 0808 303 7400, <br> 
                     <font-awesome-icon :icon="['fas', 'phone']" /> +234 000 000 0000.
                 </div>
                 <div class="mb-3">
