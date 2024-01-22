@@ -240,7 +240,7 @@ const slideOptions2 = ref({
      <!-- <Tour /> -->
 
      <!-- <Display /> -->
-    <div class="container-fluid py-5 slide-container">
+    <div class="container-fluid py-5 slide-container text-center">
         <div class="container">
             <div class="fw-bolder fs-1 text-black text-center text-lg-center text-capitalize ">WHat our parents say:</div>
             <div class="row">
@@ -251,7 +251,7 @@ const slideOptions2 = ref({
                                 <div class="slide-child">
                                     I would like to take this opportunity to thank you and all the teachers for the kindness and guidance to my daughter during the past year. Your tender loving care is much. <span class="display-5">&#128525;</span>
                                 </div>
-                                <div class="slide-child2">
+                                <div class="slide-child2 text-danger">
                                     Adedeji Kunle
                                 </div>
                             </div>
@@ -261,7 +261,7 @@ const slideOptions2 = ref({
                                 <div class="slide-child">
                                     Great choice, great teachers and classmates, kids will remember this wonderful experience. 
                                 </div>
-                                <div class="slid-child2">
+                                <div class="slide-child2 text-danger">
                                     Ayo Babatunde
                                 </div>
                            </div>
@@ -271,7 +271,7 @@ const slideOptions2 = ref({
                                 <div class="slide-child">
                                     Thank you for your kindness and care with our son and with all children!
                                 </div>
-                                <div class="slide-child2">
+                                <div class="slide-child2 text-danger">
                                     Yomi deji
                                 </div>
                             </div>
@@ -281,8 +281,8 @@ const slideOptions2 = ref({
                                 <div class="slide-child">
                                     I like the way the children are been encourage to believe in themselves, It helps good development. <span class="display-5">&#128516;</span>
                                 </div>
-                                <div class="slide-child2">
-                                    Yomi deji
+                                <div class="slide-child2 text-danger">
+                                    Adeleke Bunmi
                                 </div>
                             </div>
                         </SplideSlide>
@@ -291,7 +291,7 @@ const slideOptions2 = ref({
                                 <div class="slide-child">
                                     British Lighthouse School is one of the best British school in Lagos and Nigeria
                                 </div>
-                                <div class="slide-child2">
+                                <div class="slide-child2 text-danger">
                                     Micheal Edward
                                 </div>
                             </div>
@@ -301,7 +301,7 @@ const slideOptions2 = ref({
                                 <div class="slide-child">
                                     I am impressed with your curriculum and teaching methods which is different from other schools. Well planned worksheets for practice makes my child think beyond prescribed Textbooks.
                                 </div>
-                                <div class="slide-child2">
+                                <div class="slide-child2 text-danger">
                                     ajidagba
                                 </div>
                             </div>
@@ -311,8 +311,8 @@ const slideOptions2 = ref({
                                 <div class="slide-child">
                                     The child is progressing well academically. His confidence has boosted up a lot as earlier he was very introvert.
                                 </div>
-                                <div class="slide-child2">
-                                    Chioma
+                                <div class="slide-child2 text-danger">
+                                    Chioma Udoka
                                 </div>
                             </div>
                         </SplideSlide>
@@ -321,8 +321,8 @@ const slideOptions2 = ref({
                                 <div class="slide-child">
                                     We are very satisfied. Our child always gets ample opportunities to explore and progress in all aspects. The school has been successful in striking an appropriate balance between Academic and Co-Curricular activities.
                                 </div>
-                                <div class="slide-child2">
-                                    Abraham Bello
+                                <div class="slide-child2 text-danger">
+                                    Yahaya Bello
                                 </div>
                             </div>
                         </SplideSlide>
@@ -331,7 +331,7 @@ const slideOptions2 = ref({
                                 <div class="slide-child">
                                     Highly appreciated the pains taken by the teachers and the day boarding staff for the academic improvement of my daughter and boosting her confidence in other activities too.
                                 </div>
-                                <div class="slide-child2">
+                                <div class="slide-child2 text-danger">
                                     Chidinma Felix
                                 </div>
                             </div>
@@ -341,7 +341,7 @@ const slideOptions2 = ref({
                                 <div class="slide-child">
                                     I like to take this privilege to congratulate the management of the School for its endless efforts. We are really feeling proud of all the teachers and the school as a whole. Teacher uses 2D & 3D multimedia modules to teach and my child loves it.
                                 </div>
-                                <div class="slide-child2">
+                                <div class="slide-child2 text-danger">
                                     Funke
                                 </div>
                             </div>
@@ -369,7 +369,7 @@ const slideOptions2 = ref({
                     <div class="img-container position-relative ">
                         <img src="@/assets/img/private-education.jpg" class="img-fluid" alt="">
                         <div class="img-overlay">
-                            <div class="img-text position-absolute  animate__animated animate__slow animate__flip animate__infinite">Students in the hostel</div>
+                            <div class="img-text position-absolute  animate__animated animate__slow animate__bounce  animate__infinite">Junior students class room   </div>
                         </div>
                     </div>
                 </div>
@@ -378,7 +378,7 @@ const slideOptions2 = ref({
                     <div class="img-container position-relative ">
                         <img src="@/assets/img/boarding-1.jpg" class="img-fluid" alt="">
                         <div class="img-overlay">
-                            <div class="img-text position-absolute  animate__animated animate__slow animate__flip animate__infinite">Students in the hostel</div>
+                            <div class="img-text position-absolute  animate__animated animate__slow animate__bounce  animate__infinite">female hostel</div>
                         </div>
                     </div>
                 </div>
@@ -387,7 +387,7 @@ const slideOptions2 = ref({
                     <div class="img-container position-relative ">
                         <img src="@/assets/img/boarding-4.jpg" class="img-fluid" alt="">
                         <div class="img-overlay">
-                            <div class="img-text position-absolute  animate__animated animate__slow animate__flip animate__infinite">Students in the hostel</div>
+                            <div class="img-text position-absolute  animate__animated animate__slow animate__bounce animate__infinite">male hostel</div>
                         </div>
                     </div>
                 </div>
@@ -397,7 +397,7 @@ const slideOptions2 = ref({
                     <div class="img-container-2 position-relative ">
                         <img src="@/assets/img/computer.webp" class="img-fluid" alt="">
                         <div class="img-overlay-2">
-                            <div class="img-text position-absolute  animate__animated animate__slow animate__flip animate__infinite">Students in the hostel</div>
+                            <div class="img-text position-absolute  animate__animated animate__slow animate__bounce  animate__infinite">ICT class</div>
                         </div>
                     </div>
                 </div>
@@ -406,7 +406,7 @@ const slideOptions2 = ref({
                     <div class="img-container-2 position-relative ">
                         <img src="@/assets/img/boarding-4.jpg" class="img-fluid" alt="">
                         <div class="img-overlay-2">
-                            <div class="img-text position-absolute  animate__animated animate__slow animate__flip animate__infinite">Students in the hostel</div>
+                            <div class="img-text position-absolute  animate__animated animate__slow animate__bounce  animate__infinite">Students hostel</div>
                         </div>
                     </div>
                 </div>
@@ -415,7 +415,7 @@ const slideOptions2 = ref({
                     <div class="img-container-2 position-relative ">
                         <img src="@/assets/img/Classroom_Students_ScienceLab_Indoor.webp" class="img-fluid" alt="">
                         <div class="img-overlay-2">
-                            <div class="img-text position-absolute  animate__animated animate__slow animate__flip animate__infinite">Students in the hostel</div>
+                            <div class="img-text position-absolute  animate__animated animate__slow animate__bounce  animate__infinite">science laboratory</div>
                         </div>
                     </div>
                 </div>
@@ -425,7 +425,7 @@ const slideOptions2 = ref({
                     <div class="img-container-3 position-relative ">
                         <img src="@/assets/img/handicraft.jpg" class="img-fluid" alt="">
                         <div class="img-overlay-3">
-                            <div class="img-text position-absolute  animate__animated animate__slow animate__flip animate__infinite">Students in the hostel</div>
+                            <div class="img-text position-absolute  animate__animated animate__slow animate__bounce  animate__infinite">creative class</div>
                         </div>
                     </div>
                 </div>
@@ -434,7 +434,7 @@ const slideOptions2 = ref({
                     <div class="img-container-3 position-relative ">
                         <img src="@/assets/img/musical.jpeg" class="img-fluid" alt="">
                         <div class="img-overlay-3">
-                            <div class="img-text position-absolute  animate__animated animate__slow animate__flip animate__infinite">Students in the hostel</div>
+                            <div class="img-text position-absolute  animate__animated animate__slow animate__bounce animate__infinite">musical class</div>
                         </div>
                     </div>
                 </div>
@@ -443,7 +443,7 @@ const slideOptions2 = ref({
                     <div class="img-container-3 position-relative ">
                         <img src="@/assets/img/boarding-3.jpg" class="img-fluid" alt="">
                         <div class="img-overlay-3">
-                            <div class="img-text position-absolute  animate__animated animate__slow animate__flip animate__infinite">Students in the hostel</div>
+                            <div class="img-text position-absolute  animate__animated animate__slow animate__bounce  animate__infinite">Students hostel</div>
                         </div>
                     </div>
                 </div>
@@ -453,7 +453,7 @@ const slideOptions2 = ref({
                     <div class="img-container-4 position-relative ">
                         <img src="@/assets/img/boarding-2.jpg" class="img-fluid" alt="">
                         <div class="img-overlay-4">
-                            <div class="img-text position-absolute  animate__animated animate__slow animate__flip animate__infinite">Students in the hostel</div>
+                            <div class="img-text position-absolute  animate__animated animate__slow animate__bounce animate__infinite">students in the dinning</div>
                         </div>
                     </div>
                 </div>
@@ -462,7 +462,7 @@ const slideOptions2 = ref({
                     <div class="img-container-4 position-relative ">
                         <img src="@/assets/img/boarding-2.jpg" class="img-fluid" alt="">
                         <div class="img-overlay-4">
-                            <div class="img-text position-absolute  animate__animated animate__slow animate__flip animate__infinite">Students in the hostel</div>
+                            <div class="img-text position-absolute  animate__animated animate__slow animate__bounce animate__infinite">students in the dinning</div>
                         </div>
                     </div>
                 </div>
@@ -471,7 +471,7 @@ const slideOptions2 = ref({
                     <div class="img-container-4 position-relative ">
                         <img src="@/assets/img/boarding-2.jpg" class="img-fluid" alt="">
                         <div class="img-overlay-4">
-                            <div class="img-text position-absolute  animate__animated animate__slow animate__flip animate__infinite">Students in the hostel</div>
+                            <div class="img-text position-absolute  animate__animated animate__slow animate__bounce animate__infinite">Students in the hostel</div>
                         </div>
                     </div>
                 </div>
@@ -566,7 +566,7 @@ const slideOptions2 = ref({
 
      <Footer/>
     <!-- closed -->
-        
+
 </template>
 
 <style scoped>
@@ -690,15 +690,8 @@ const slideOptions2 = ref({
     font-weight: bold;
    }
 
-   /* h1{
-    color: rgb(1, 1, 31);
-    text-transform: capitalize;
-   } */
-   /* .schhol-name h2{
-     color: #f1f1f1;
-   } */
+  
   p{
-    /* color: rgb(1, 1, 31); */
     color: white;
    }
 
@@ -753,7 +746,6 @@ const slideOptions2 = ref({
 
    /* our-school-container */
    .our-school-container{
-      /* background-color: rgb(1, 1, 31); */
       background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/school-foto-as-cover-foto.png);
       background-repeat: no-repeat;
       background-size: cover;
@@ -870,7 +862,7 @@ const slideOptions2 = ref({
         overflow: hidden;
         font-weight: 700;
         top: 50%;
-        left: 30%;
+        left: 35%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
          background: linear-gradient(97.03deg, #f5f5f7 14.69%, #33D96B 50.99%, yellow 93.47%);
@@ -1048,8 +1040,11 @@ const slideOptions2 = ref({
        }
 
        .img-text{
-            left: 30%;   
+            /* left: 30%;    */
+            left: 35%;
             font-size: 15px;
+            
        }
-}
+  }
+
 </style>

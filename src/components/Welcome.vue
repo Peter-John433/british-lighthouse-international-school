@@ -6,7 +6,7 @@
     <div class="container-fluid bg-light py-5 px-0">
         <div class="container-sm">
             <div class="row gap-4">
-                <div class="col-12 col-sm-12 col-lg">
+                <div class="col-12 col-sm-12 col-lg mt-lg-2">
                     <div>
                         <img src="@/assets/img/Private-education.jpg" class="img-fluid" alt="">
                     </div>

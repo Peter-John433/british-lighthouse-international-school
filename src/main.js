@@ -35,24 +35,21 @@ app.use( VueSplide );
 app.mount('#app');
 
 
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry=> {
-        if(entry.isIntersecting){
-            entry.target.classList.add("show-items");
-        }else{
-            entry.target.classList.remove("show-items");
-        }
-    });
-  });
+// const observer = new IntersectionObserver((entries) => {
+//     entries.forEach(entry=> {
+//         if(entry.isIntersecting){
+//             entry.target.classList.add("show-items");
+//         }else{
+//             entry.target.classList.remove("show-items");
+//         }
+//     });
+//   });
 
-    const scrollScale = document.querySelectorAll('.scroll-scale');
-        scrollScale.forEach((el)=>observer.observe(el))
+//     const scrollScale = document.querySelectorAll('.scroll-scale');
+//         scrollScale.forEach((el)=>observer.observe(el))
 
-    const scrollBotton = document.querySelectorAll('.scroll-botton');
-       scrollBotton.forEach((el)=>observer.observe(el));
+//     const scrollBotton = document.querySelectorAll('.scroll-botton');
+//        scrollBotton.forEach((el)=>observer.observe(el));
 
-    const scrollTop = document.querySelectorAll('.scroll-top');
-       scrollTop.forEach((el)=>observer.observe(el));
-
-
-  
+//     const scrollTop = document.querySelectorAll('.scroll-top');
+//        scrollTop.forEach((el)=>observer.observe(el));
