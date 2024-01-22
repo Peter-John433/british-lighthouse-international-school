@@ -26,7 +26,7 @@
                     <div>
                         Our Mission Statement is to provide an environment in which each individual is assisted to discover his or her academic potential in study, sports and personal development.
                     </div>
-                    <router-link :to="{ name : 'home'}" class="rout">Read More</router-link>
+                    <router-link :to="{ name: 'Executive'}" class="rout">Read More</router-link>
                 </div>
             </div>
         </div>

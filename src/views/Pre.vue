@@ -22,7 +22,7 @@
 
     <div class="container-fluid bg-white p-0">
         <div class="container pt-3 p-sm-5  bg-light pb-5">
-            <div class="row text-center text-sm-start">
+            <div class="row text-start">
                 <div class="col-12 col-sm-12 col-lg-12 mt-5 mb-3">
                     <div class="my-3">
                         It is an honour to welcome you to British Lighthouse International School Day Pre-School, Gbagada.
@@ -37,7 +37,7 @@
                        <div class="mt-3">
                             Our classrooms are well lit, well ventilated and furnished with child-sized shelves and stocked with Montessori materials. These materials arouse their curiosity, interest, secure their attention while promoting motivation and teach them independence and concentration.Each class has an interactive flat panel for teaching and learning. It is home away from home, with qualified Montessori teachers
                        </div>
-                       <div class="mt-5 fw-bolder">
+                       <div class="mt-5 fw-bolder text-center text-md-start">
                            We work in close partnership with parents to support our children on their learning journey.
                     </div>
                 </div>
@@ -59,8 +59,8 @@
                 </div>
             </div>
             <div class="row">
-               <div class="col col-sm col-lg-6 mx-auto text-center mt-5">
-                   <router-link :to="{name: 'Curriculum'}">Pre School Curriculum</router-link>
+               <div class="col col-sm col-lg-6 mx-auto text-center mt-5 d-flex justify-content-center align-items-center flex-row ">
+                   <router-link class="d-flex align-items-center " :to="{name: 'Curriculum'}">Pre School Curriculum <i class='bx bx-right-arrow-alt ms-2' ></i></router-link>
                </div>
             </div>
             <div class="row mx-auto">
@@ -89,9 +89,9 @@
 <style scoped>
 
     .accreditation-and-affiliation-container-1{
-        background:linear-gradient(rgba(2, 2, 49, .4), rgba(2, 2, 49, .4)), url(../src/assets/img/school-foto-as-cover-foto.png);
+        background:linear-gradient(rgba(2, 2, 49, .4), rgba(2, 2, 49, .4)), url(../src/assets/img/preschool-1.jpg);
         width: 100%;
-        height: 400px;
+        height: 500px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -220,9 +220,10 @@
 
 
     @media screen and (max-width: 576px) {
-        .accreditation-and-affiliation-container{
-           justify-content: center;
-        }
+        .accreditation-and-affiliation-container-1{
+          background-position: 30%;
+          justify-content: center;  
+       }
         
         .accreditation-and-affiliation-container h3{
            font-size: 1.5rem;

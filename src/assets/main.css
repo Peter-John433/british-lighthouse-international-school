@@ -19,3 +19,28 @@
  .site{
    background-color: white;
  }
+
+ .scroll-scale{
+  opacity: 0;
+  transform: scale(.9);
+  transition: all .4s;
+}
+
+.scroll-botton{
+  opacity: 0;
+  transform: translateY(300px);
+  transition: all 0.9s;
+}
+
+/* parallax */
+.scroll-top{
+  opacity: 0;
+  transition: all 0.3s;
+  transform: scale(-100px);
+}
+
+.show-items{
+   opacity: 3;
+   transform: translateX();
+}
+

@@ -41,7 +41,7 @@ const router = createRouter({
 
         { path: '/about/history', name: 'History', component: History },
 
-        { path: '/about/executive', name: 'Executive', component: Executive },
+        { path: '/about/executive director\ns welcome address', name: 'Executive', component: Executive },
 
         { path: '/about/Song', name: 'Song', component: Song },
 

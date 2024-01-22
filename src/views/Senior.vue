@@ -70,7 +70,7 @@
                             </div>
                         </div>
 
-                     <h3 class="mt-5 fs-3">
+                     <h3 class="mt-5 senior-curriculum">
                         Learn more about our Senior class curriculum 
                      </h3>
 
@@ -107,8 +107,8 @@
             </div>
 
             <div class="row">
-                <div class="col col-sm col-lg">
-                    <h3 class=" text-center fw-bolder fs-3">
+                <div class="col col-sm col-lg senior-text">
+                    <h3 class=" text-center fw-bolder">
                          What We Have & How We Do It 
                     </h3>
 
@@ -146,7 +146,7 @@
 
             <div class="row row-gap-4 row-gap-lg-0 pb-5">
                 <h3 class=" text-center fw-bolder fs-3 mb-5">
-                    Hear from Our Junior School Students 
+                    Hear from Our Senior School Students 
                 </h3>
                 <div class="col-12 col-sm-6 col-lg-4">
                     <img src="@/assets/img/junior.webp" class="img-fluid " alt="">
@@ -184,7 +184,7 @@
     .accreditation-and-affiliation-container-1{
         background: linear-gradient(rgba(2, 2, 49, .4), rgba(2, 2, 49, .4)), url(../src/assets/img/about-photos.jpg);
         width: 100%;
-        height: 450px;
+        height: 500px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -245,7 +245,13 @@
     .loyal img{
         height: auto;
     }
+    .senior-text h3{
+        font-size: 20px;
+    }
 
+    .senior-text li{
+        font-size: 18px;
+      }
     @media screen and (max-width: 992px) {
         accreditation-and-affiliation-container{
         justify-content: center;
@@ -260,9 +266,25 @@
         justify-content: center;
         }
 
+        .accreditation-and-affiliation-container-1{
+            background-position: 30%, center;
+        }
+
         .accreditation-and-affiliation-container h3{
             font-size: 1.5rem;
         } 
+
+        .senior-curriculum h3{
+            font-size: 10px;
+        }
+
+        .senior-text h3{
+        font-size: 18px;
+       }
+
+       .senior-text li{
+        font-size: 16px;
+       }
     }
 
 </style>

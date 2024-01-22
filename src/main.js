@@ -23,13 +23,36 @@ import VueSplide from '@splidejs/vue-splide'
 
 
 
-library.add(faUserSecret, faCertificate, faBuildingColumns, faSchoolFlag, faCalendar, faPhone, faEarthOceania, faEnvelope, faChevronRight, faChevronDown)
+library.add(faUserSecret, faCertificate, faBuildingColumns, faSchoolFlag, faCalendar, faPhone, faEarthOceania, faEnvelope, faChevronRight, faChevronDown);
 
-const app = createApp(App)
+const app = createApp(App);
 
 
-app.use(router)
+app.use(router);
 // app.component('font-awesome-icon', FontAwesomeIcon)
-app.component('font-awesome-icon', FontAwesomeIcon)
-app.use( VueSplide )
-app.mount('#app')
+app.component('font-awesome-icon', FontAwesomeIcon);
+app.use( VueSplide );
+app.mount('#app');
+
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry=> {
+        if(entry.isIntersecting){
+            entry.target.classList.add("show-items");
+        }else{
+            entry.target.classList.remove("show-items");
+        }
+    });
+  });
+
+    const scrollScale = document.querySelectorAll('.scroll-scale');
+        scrollScale.forEach((el)=>observer.observe(el))
+
+    const scrollBotton = document.querySelectorAll('.scroll-botton');
+       scrollBotton.forEach((el)=>observer.observe(el));
+
+    const scrollTop = document.querySelectorAll('.scroll-top');
+       scrollTop.forEach((el)=>observer.observe(el));
+
+
+  

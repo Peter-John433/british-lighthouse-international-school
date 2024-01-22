@@ -98,7 +98,7 @@
 
 <template>
    <div>
-      <div class="container-fluid bg-white  pt-5 ">
+      <div class="container-fluid bg-white pt-5">
          <div class="container py-5">
             <div class="row mx-auto text-center">
                <div class="col col-sm-6 col-lg-4 d-flex flex-column flex-lg-row justify-content-center align-items-center ">
@@ -110,7 +110,8 @@
                                <h5 class="fw-bold">Pre School</h5>
                             </div>
                             <div class="arrow">
-                                <img src="@/assets/img/Chevron.png" alt="">
+                                <!-- <img src="@/assets/img/Chevron.png" alt=""> -->
+                                <i class='bx bxs-chevron-right bx-flashing' ></i>
                             </div>
                         </div>
                      </div>
@@ -127,7 +128,8 @@
                                 <h5 class="fw-bold text-center">Junior School</h5>
                            </div>
                            <div class="arrow">
-                                <img src="@/assets/img/Chevron.png" alt="">
+                                <!-- <img src="@/assets/img/Chevron.png" alt=""> -->
+                                <i class='bx bxs-chevron-right bx-flashing' ></i>
                             </div>
                         </div>
                      </div>
@@ -144,7 +146,8 @@
                                 <h5 class="fw-bold text-center">Senior School</h5>
                             </div>
                             <div class="arrow">
-                                <img src="@/assets/img/Chevron.png" alt="">
+                                <!-- <img src="@/assets/img/Chevron.png" alt=""> -->
+                                <i class='bx bxs-chevron-right bx-flashing' ></i>
                             </div>
                         </div>
                      </div>
@@ -276,6 +279,20 @@
       position: absolute;
       bottom: -7%;
       z-index: 99;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      background-color: white;
+      border-radius: 100%;
+      border: 2px;
+      border-style: solid;
+      border-color: rgb(1, 1, 31);
+      justify-content: center;
+   }
+   .bxs-chevron-right{
+      color: rgb(1, 1, 31);
+      font-size: 30px;
    }
 
    .arrow img{
