@@ -18,7 +18,8 @@
                                 <div>Programme of school news and events...</div>
                             </div>
                             <div class="arrow">
-                                <img src="@/assets/img/Chevron.png" alt="">
+                                <!-- <img src="@/assets/img/Chevron.png" alt=""> -->
+                                 <i class='bx bxs-chevron-right bx-flashing' ></i>
                             </div>
                         </div>
                      </div>
@@ -34,7 +35,8 @@
                                 <div>Programmes</div>
                            </div>
                            <div class="arrow">
-                                <img src="@/assets/img/Chevron.png" alt="">
+                                <!-- <img src="@/assets/img/Chevron.png" alt=""> -->
+                                <i class='bx bxs-chevron-right bx-flashing' ></i>
                             </div>
                         </div>
                      </div>
@@ -239,8 +241,7 @@
       position: absolute;
       bottom: 10%;
       
-     }
-        
+     }  
     }
 
     @media screen and (max-width: 576px) {
