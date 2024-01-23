@@ -21,7 +21,7 @@
    <div class="container-fluid accreditation-and-affiliation-container-1">
         <div class="row">
             <div class="col col-sm col-lg ps-lg-5">
-                <h1 class="display-5 text-white text-capitalize px-4 py-2 animate__animated animate__slow animate__pulse animate__infinite">
+                <h1 class="display-5 text-white text-capitalize px-4 py-2">
                     contact us
                 </h1>
             </div>
@@ -83,7 +83,7 @@
     .accreditation-and-affiliation-container-1{
         background:linear-gradient(rgba(2, 2, 49, .4), rgba(2, 2, 49, .4)), url(../src/assets/img/school-foto-as-cover-foto.png);
         width: 100%;
-        height: 400px;
+        height: 500px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -192,6 +192,10 @@
     @media screen and (max-width: 576px) {
         .accreditation-and-affiliation-container{
         justify-content: center;
+        }
+
+        .accreditation-and-affiliation-container-1{
+            height: 450px;
         }
 
         .accreditation-and-affiliation-container h3{

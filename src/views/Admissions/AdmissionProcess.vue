@@ -23,7 +23,7 @@
    <div class="container-fluid accreditation-and-affiliation-container-1">
         <div class="row">
             <div class="col col-sm col-lg ps-lg-5">
-                <h1 class="display-5 text-white text-capitalize px-4 py-2 animate__animated animate__slow animate__pulse animate__infinite">
+                <h1 class="display-5 text-white text-capitalize px-4 py-2">
                     Admission Process
                 </h1>
             </div>
@@ -57,7 +57,7 @@
                 <div class="col col-sm-12 col-lg-12">
                     <h3 class="py-5">OR</h3>
                    <div class="pb-5">
-                       Fill an Online <span><a href="#" class="text-success fw-bold">Application Form</a></span> and make a payment of  ₦15,000 at any branch of
+                       Fill an Online <span><a href="#" class="text-success fw-bold">Application Form</a></span> and make a payment of  ₦15,000 at any of our bank below:
                    </div>
                    <div class="text-uppercase pb-5">  
                         STANDARD CHARTED Bank (BLIC school – 000 282 9865)
@@ -79,7 +79,7 @@
                      </div>
                 </div>
                 <div class="col col-sm-12 col-lg-12 mt-5 mt-3">
-                    <h5 class="text-warning fw-bolder">Payments are made to designated banks or via pos on school premises. Accounts department receives the bank slip/draft and issues a receipt.</h5>
+                    <h5 class="text-warning color-text fw-bolder">Payments are made to designated banks or via pos on school premises. Accounts department receives the bank slip/draft and issues a receipt.</h5>
 
                     <div class="pt-4 text-start">
                         <h6 class="fw-bold text-black text-center">
@@ -111,7 +111,7 @@
     .accreditation-and-affiliation-container-1{
         background:linear-gradient(rgba(2, 2, 49, .4), rgba(2, 2, 49, .4)), url(../src/assets/img/school-foto-as-cover-foto.png);
         width: 100%;
-        height: 400px;
+        height: 500px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -211,7 +211,11 @@
 
     @media screen and (max-width: 576px) {
         .accreditation-and-affiliation-container{
-        justify-content: center;
+           justify-content: center;
+        }
+
+        .accreditation-and-affiliation-container-1{
+            height: 450px;
         }
         
         .accreditation-and-affiliation-container h3{
@@ -244,6 +248,20 @@
         display: flex;
         justify-content: center;
         align-items: center;
+       }
+
+       h2{
+          font-size: 1rem;
+          font-weight: 700;
+       }
+
+       h3{
+          font-size: 1rem;
+          font-weight: 600;
+       }
+
+       .color-text{
+          font-size: 1rem;
        }
     }
 

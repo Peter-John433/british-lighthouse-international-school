@@ -12,7 +12,7 @@
    <div class="container-fluid accreditation-and-affiliation-container-1">
         <div class="row">
             <div class="col col-sm col-lg ps-lg-5">
-                <h1 class="display-5 text-white text-capitalize px-4 py-2 animate__animated animate__slow animate__pulse animate__infinite">
+                <h1 class="display-5 text-white text-capitalize px-4 py-2">
                     Why choose british lighthouse
                 </h1>
             </div>
@@ -112,7 +112,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid pt-5 bg-white">
+    <div class="container-fluid py-5 bg-white">
         <div class="container">
             <div class="row">
             <div class="col-12 col-sm col-lg">
@@ -123,9 +123,9 @@
                     <li class="fw-bold">develop core analytical skills required to solve global problems</li>
                 </ul>
 
-                <div class="py-4">
-                    <a href="#" class="btn btn-lg  read-button btn-outline-warning text-capitalize w-25 fw-bold float-end clearfix">read more</a>
-                </div>
+                <!-- <div class="py-4">
+                    <a href="#" class="btn btn-lg  read-button btn-outline-warning text-capitalize fw-bold float-end clearfix">read more</a>
+                </div> -->
             </div>
         </div>
         </div>
@@ -142,7 +142,7 @@
     .accreditation-and-affiliation-container-1{
         background:linear-gradient(rgba(2, 2, 49, .4), rgba(2, 2, 49, .4)), url(../src/assets/img/school-foto-as-cover-foto.png);
         width: 100%;
-        height: 400px;
+        height: 500px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -225,12 +225,12 @@
     letter-spacing: 1.6px;
 }
  /* closed */
-  .read-button{
+  /* .read-button{
     background-color: rgb(1, 1, 31);
     color: white;
     display: inline;
     word-break: keep-all;
-  }
+  } */
 
     .show-blic-cont h2{
         color: rgb(1, 1, 31);
@@ -314,6 +314,10 @@
         .accreditation-and-affiliation-container h3{
             font-size: 1.5rem;
         } 
+
+        .accreditation-and-affiliation-container-1{
+            height: 450px;
+        }
 
         .accreditation-and-affiliation-container-1 h1{
         font-weight: bold;
