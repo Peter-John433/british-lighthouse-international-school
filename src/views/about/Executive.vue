@@ -12,7 +12,7 @@
    <div class="container-fluid executive-container">
         <div class="row">
             <div class="col col-sm col-lg ps-lg-5">
-                <h1 class="display-5 text-white text-capitalize px-4 py-2 animate__animated animate__slow animate__pulse animate__infinite">
+                <h1 class="display-5 text-white text-capitalize px-4 py-2">
                     Executive Director
                 </h1>
             </div>
@@ -63,9 +63,9 @@
 <style scoped>
 
     .executive-container{
-        background:linear-gradient(rgba(2, 2, 49, .4), rgba(2, 2, 49, .4)), url(../src/assets/img/school-foto-as-cover-foto.png);
+        /* background:linear-gradient(rgba(2, 2, 49, .4), rgba(2, 2, 49, .4)), url(../src/assets/img/british-logo.png); */
         width: 100%;
-        height: 400px;
+        height: 500px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -90,8 +90,7 @@
     .Executive-director-speech-container h3{
         color: rgb(1, 1, 31);
         font-weight: 700;
-        font-size: 2.4rem;
-        /* text-shadow: 3px 3px 5px #000; */
+        font-size: 2rem;
     }  
 
     .executive-img img{
@@ -110,21 +109,23 @@
     }
 
     @media screen and (max-width: 992px) {
-        .about-page-container{
-        justify-content: center;
+        .executive-container{
+          justify-content: center;
+          height: 600px;
         }
         /* closed */
          
     }
 
     @media screen and (max-width: 576px) {
-        .about-page-container{
-        justify-content: center;
+        .executive-container{
+          justify-content: center;
+          height: 450px;
         }
 
         
         .Executive-director-speech-container h3{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
         } 
     }
 

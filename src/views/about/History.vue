@@ -13,7 +13,7 @@
    <div class="container-fluid about-page-container">
         <div class="row">
             <div class="col col-sm col-lg">
-                <h1 class="display-5 text-white text-capitalize px-4 py-2 animate__animated animate__slow animate__pulse animate__infinite">
+                <h1 class="display-5 text-white text-capitalize px-4 py-2">
                     About our school
                 </h1>
             </div>
@@ -59,13 +59,12 @@
     .about-page-container{
     background:linear-gradient(rgba(2, 2, 49, .4), rgba(2, 2, 49, .4)), url(../assets/img/britishlighthouse-1.jpg);
     width: 100%;
-    height: 400px;
+    height: 500px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding-top: 4rem;
-    /* background-position: top left; */
     background-repeat: no-repeat;
     background-size: cover;
     }
@@ -82,7 +81,6 @@
         color: rgb(1, 1, 31);
         font-weight: 700;
         font-size: 2.4rem;
-        /* text-shadow: 3px 3px 5px #000; */
     }  
 
     .letter-spacing-container{
@@ -90,11 +88,11 @@
     }
 
     @media screen and (max-width: 992px) {
-        /* .about-page-container */
         .about-page-container{
-        justify-content: center;
+          justify-content: center;
+          height: 400px;
+
         }
-        /* closed */
     }
 
     @media screen and (max-width: 576px) {
@@ -102,8 +100,12 @@
         justify-content: center;
         }
         .Executive-director-speech-container h3{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
         } 
+
+        .history-container-2 h3{
+            font-size: 1.2rem;
+        }
     }
 
 </style>
