@@ -63,7 +63,7 @@
     </div>
 </template>
 
-<style scoped>
+<style scoped >
  .inner{
     overflow: hidden;
  }
@@ -75,13 +75,23 @@
     cursor: pointer;
  }
   .card-body{
-    background-color: rgb(1, 1, 31);
+    /* background-color: rgb(1, 1, 31); */
+    background-color: #f1f1f1;
     padding: 10px;
     height: 270px;
   }
+
+  .card{
+    transition: all .9s ease;
+  }
+
+  .card:hover{
+    transform: scale(1.05);
+  }
   
   .card-title{
-    color: yellow;
+    /* color: yellow; */
+    color: red;
     text-transform: uppercase;
     padding: 10px 0;
     font-size: 16px;
@@ -89,7 +99,9 @@
     letter-spacing: 1.2px;
   }
   .card-text{
-    color: white;
+    /* color: white; */
+    color: rgb(1,1,31);
     line-height: 1.7rem;
+    font-size: 13px;
   }
 </style>
