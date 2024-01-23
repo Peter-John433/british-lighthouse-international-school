@@ -12,7 +12,7 @@
     <div class="container-fluid executive-container">
         <div class="row">
             <div class="col col-sm col-lg ps-lg-5">
-                <h1 class="display-5 text-white text-capitalize px-4 py-2 animate__animated animate__slow animate__pulse animate__infinite">
+                <h1 class="display-5 text-white text-capitalize px-4 py-2">
                     Mission | Vision | Values
                 </h1>
             </div>
@@ -93,7 +93,7 @@
  .executive-container{
     background:linear-gradient(rgba(2, 2, 49, .4), rgba(2, 2, 49, .4)), url(../assets/img/britishlighthouse-2.jpg);
     width: 100%;
-    height: 400px;
+    height: 500px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -130,6 +130,9 @@
     }
 
     @media screen and (max-width: 576px) {
+        .executive-container{
+            height: 450px;
+        }
       .executive-container h1{
         font-size: 18px;
        }

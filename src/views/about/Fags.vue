@@ -308,7 +308,7 @@
 <style scoped>
 
 .fags-container{
-    background:linear-gradient(rgba(2, 2, 49, .4), rgba(2, 2, 49, .4)), url(../assets/img/britishlighthouse-2.jpg);
+    background:linear-gradient(rgba(2, 2, 49, .4), rgba(2, 2, 49, .4)), url(../assets/img/british-logo.png);
     width: 100%;
     height: 500px;
     display: flex;

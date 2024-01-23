@@ -116,7 +116,7 @@
                         </h6>
                      </div>
                      <p>
-                        British Lighthouse School is a sparkly and inspiring place. We take great pride in our student diversity, and rigorous academic offerings that bring out the best in our kids. We are student-centered  and provide one-to-one access to computers.  Our subjects balance an emphasis on practice and discipline with the development of 21st Century Skills through Child-Centered Learning and the use of technology.
+                        British Lighthouse School is a sparkly and inspiring place. We take great pride in our student diversity, and rigorous academic offerings that bring out the best in our kids,  Our subjects balance an emphasis on practice and discipline with the development of 21st Century Skills through Child-Centered Learning.
                      </p>
                      <p>
                         British Lighthouse students Acuminated their abilities for research and learn to communicate effectively, collaborate genuinely, and think creatively and critically.
@@ -140,7 +140,7 @@
                         </h6>
                      </div>
                      <p>
-                        British Lighthouse School is located in a largely spaced expanse of Bekko Ransom Kutti Youth Centre Anthony, land with purpose built structures suitable for learning. The student overall development is paramount and this is represented in the core values of the school. To raise a total child, we place priority on emotional, physical, spiritual and psychological well-being of our students. The school runs a well-blended Curriculum (Nigeria and British Curricular).
+                        British Lighthouse School is located in a largely spaced expanse of Anthony,No. 35/39 Adebayo Makuolu street Anthony, lagos. land with purpose built structures suitable for learning. The student overall development is paramount and this is represented in the core values of the school. To raise a total child, we place priority on emotional, physical, spiritual and psychological well-being of our students. The school runs a well-blended Curriculum (Nigeria and British Curricula).
                      </p>
                      <!-- <p>
                          British Lighthouse School cares for children between the age of 12 years – 20 years.Start from year 7 (J.S.S.1), students are prepared to write the Checkpoint examination organized by Cambridge International Examination, Junior  School National Examination Council(NECO), Basic Education Certificate Examination( BECE). Also, Year 8 (J.S.S.2) students go on an exchange and field trip (FRENCH) while year 10 (S.S.S.1) students have their curriculum prepared towards writing the West African Examinations Council(WAEC), and National Examinations Council(NECO) examinations. Provisions are made for students who require Scholastic Aptitude Tes(SAT), Test of English as a Foreign Language (TOEFL) and Jiont Admission and Matriculation Board(JAMB).
@@ -158,7 +158,7 @@
                         </ul>
                      </div>
                      <div class="down py-5">
-                        British Lighthouse School places high premium on extracurricular activities and participates in several competitions ranging from Sports, Literary, Debating, Musics, ICT, Spelling Bee and Quiz Competitions.
+                        British Lighthouse School places high premium on extracurricular activities and participates in several competitions ranging from Sports, Literary, Debating, Musics, Spelling Bee and Quiz Competitions.
                      </div>
                 </div>
             </div>
@@ -174,7 +174,7 @@
     .accreditation-and-affiliation-container-1{
         background:linear-gradient(rgba(2, 2, 49, .4), rgba(2, 2, 49, .4)), url(../src/assets/img/school-foto-as-cover-foto.png);
         width: 100%;
-        height: 400px;
+        height: 500px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -218,7 +218,8 @@
 
     @media screen and (max-width: 576px) {
         .accreditation-and-affiliation-container{
-        justify-content: center;
+           justify-content: center;
+           height: 450px;
         }
 
         .accreditation-and-affiliation-container h3{

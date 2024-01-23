@@ -12,7 +12,7 @@
    <div class="container-fluid accreditation-and-affiliation-container-1">
         <div class="row">
             <div class="col col-sm col-lg ps-lg-5">
-                <h1 class="display-5 text-white text-capitalize px-4 py-2 animate__animated animate__slow animate__pulse animate__infinite">
+                <h1 class="display-5 text-white text-capitalize px-4 py-2">
                    Special programs
                 </h1>
             </div>
@@ -23,7 +23,7 @@
     <div class="container-fluid-sm  bg-white accreditation-and-affiliation-container">
         <div class="container pt-5 pb-5 px-3 px-lg-5 bg-light">
             <div class="row py-4">
-                <div class="col-12 col-sm-12 col-lg-12 text-start">
+                <div class="col-12 col-sm-12 col-lg-12 text-center text-lg-start ">
                     <h4 class="py-4">
                         Spiritual Development
                     </h4> 
@@ -68,7 +68,7 @@
     .accreditation-and-affiliation-container-1{
         background:linear-gradient(rgba(2, 2, 49, .4), rgba(2, 2, 49, .4)), url(../src/assets/img/school-foto-as-cover-foto.png);
         width: 100%;
-        height: 400px;
+        height: 500px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -116,8 +116,9 @@
     }
 
     @media screen and (max-width: 576px) {
-        .accreditation-and-affiliation-container{
-        justify-content: center;
+        .accreditation-and-affiliation-container-1{
+           justify-content: center;
+           height: 450px;
         }
 
         .accreditation-and-affiliation-container h3{

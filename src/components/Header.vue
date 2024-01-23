@@ -38,9 +38,9 @@
                   <li>
                     <a class="dropdown-item" href="#"><router-link :to="{ name: 'Fags' }">Faqs</router-link></a>
                   </li>
-                  <li>
+                  <!-- <li>
                     <a class="dropdown-item" href="#"><router-link :to="{  name: 'AccreditationAndAffiliation' }">Accreditation and Affiliation</router-link></a>
-                  </li> 
+                  </li>  -->
                   <li>
                     <a class="dropdown-item" href="#"><router-link :to="{  name: 'MissionVisionValue' }">Mission | Vision | Core Values</router-link></a>
                   </li>
