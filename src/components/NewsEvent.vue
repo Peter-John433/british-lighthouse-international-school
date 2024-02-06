@@ -73,7 +73,7 @@
  .inner img:hover{
     transform: scale(1.55);
     cursor: pointer;
- }
+  }
   .card-body{
     /* background-color: rgb(1, 1, 31); */
     background-color: #f1f1f1;

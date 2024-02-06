@@ -92,7 +92,7 @@
                             Head of academics: 0808 303 7400,
                         </div>
                         <div>
-                            Junior school co-ordinator: 081 000 0000,
+                            Junior school co-ordinator: 0809 067 9095,
                         </div>
                     </div>
                 </div>
