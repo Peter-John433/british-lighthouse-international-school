@@ -219,7 +219,7 @@
     @media screen and (max-width: 576px) {
         .accreditation-and-affiliation-container{
            justify-content: center;
-           height: 450px;
+           /* height: 450px; */
         }
 
         .accreditation-and-affiliation-container h3{

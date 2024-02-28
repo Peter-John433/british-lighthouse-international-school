@@ -25,7 +25,7 @@
             <div class="row text-start">
                 <div class="col-12 col-sm-12 col-lg-12 mt-5 mb-3">
                     <div class="my-3">
-                        It is an honour to welcome you to British Lighthouse International School Day Pre-School, Gbagada.
+                        It is an honour to welcome you to British Lighthouse International School Day Pre-School, Anthony.
                         Our preschool section is designed to lay a solid foundation for children aged 10 months to 6yrs+. The school is a specially-prepared Montessori environment and is regarded as one of the best Montessori schools in Lagos,Nigeria due to its qualified teachers, conducive environment and child-centred facilities.
                         <div class="mt-3">
                             Our school is a welcoming and nurturing environment where the children feel physically and emotionally safe as they learn skills, interests, and passions to prepare for lifelong learning, British Lighthouse international School is the best school for your children.

@@ -356,7 +356,7 @@ const slideOptions2 = ref({
     <div class="container-fluid-sm  bg-white accreditation-and-affiliation-container">
         <div class="container-fluid pt-5 pb-1 px-3 px-lg-5 bg-light">
             <div class="row py-4">
-                <div class="col-12 col-sm-12 col-lg-12 text-center ">
+                <div class="col-12 col-sm-12 col-lg-12 text-center">
                     <div class="py-5">
                         <h4 class="display-5">
                            School Tour
