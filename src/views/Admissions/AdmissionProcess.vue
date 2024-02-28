@@ -54,7 +54,7 @@
                     <li>{{ list }}</li>
                    </ul>
                 </div>
-                <div class="col col-sm-12 col-lg-12">
+                <div class="col-12 col-sm-12 col-lg-12">
                     <h3 class="py-5">OR</h3>
                    <div class="pb-5">
                        Fill an Online <span><a href="#" class="text-success fw-bold">Application Form</a></span> and make a payment of  ₦15,000 at any of our bank below:
